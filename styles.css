@@ -1,0 +1,168 @@
+/* https://www.csscolorpalettes.com/palettes/1491 */
+
+body {
+  font-family: "Fredoka", sans-serif;
+  background-color: #ffcbcb50;
+  color: #132743;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #132743;
+}
+
+header {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+}
+
+img {
+  max-height: 65px;
+  display: inline-block;
+  float: left;
+}
+
+nav {
+  background: linear-gradient(-20deg, #fae3e3 0%, #ffb5b5 100%, #faaca8 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  max-height: 65px;
+  display: inline-block;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#features,
+#products,
+#faq {
+  scroll-margin-top: 80px;
+}
+
+.main-content {
+  margin: 80px;
+}
+
+#features {
+  margin-top: 30px;
+}
+
+#video {
+  display: block;
+  margin: 20px auto;
+}
+
+.grid-container {
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 0 0 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: #40708860;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.product-desc {
+  margin: 0 0 20px 0;
+}
+
+#faq h2 {
+  margin: 30px;
+  text-align: center;
+}
+
+#question {
+  font-weight: bold;
+}
+
+#submit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+input[type="email"] {
+  font-family: "Fredoka", sans-serif;
+  width: 200px;
+  height: 25px;
+  margin: 0 0 15px;
+  border: 1px solid #13274390;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #407088;
+  color: #fae3e3;
+  padding: 0.5rem;
+  border-style: solid;
+  border-color: #407088;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  font-family: "Fredoka", sans-serif;
+}
+
+.btn:hover {
+  background-color: #ffcbcb50;
+  border-color: #ffcbcb50;
+  color: #407088;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+footer {
+  margin: 50px;
+  text-align: center;
+}
+
+#name {
+  font-weight: 600;
+  color: #407088;
+}
